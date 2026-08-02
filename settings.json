@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "BOT_TAHERO_FANNAN",
+    "username": "AFK_BOT",
     "password": "",
     "type": "offline"
   },
@@ -36,9 +36,9 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 140000,
+    "auto-reconnect-delay": 120000,
     "max-reconnect-delay": 120000
   },
   "movement": {
@@ -69,12 +69,12 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true,
+    "pick-up-day": false,
+    "place-night": fales,
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.gg/hgcUvZvav",
     "events": {
       "connect": true,
       "disconnect": true,
